@@ -12,7 +12,7 @@
         background-color: #fff;
         font-family: Arial, sans-serif;
         color: #333;
-        height: 220.3dvh;
+        height: 221.4dvh;
     }
 
     header {
@@ -69,7 +69,7 @@
 
         text-align: center;
         background: linear-gradient(90deg, #4A00E0, #8E2DE2);
-        min-height: 200dvh; 
+        min-height: 201dvh; 
         display: flex;
         flex-direction: column;
          justify-content: center; 
