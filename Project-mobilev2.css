@@ -1,6 +1,6 @@
-@media screen and (min-width: 720px) and (max-width: 900px) {
+@media (min-width: 481px) and (max-width: 767px){
    
-    @media screen and (min-width: 2px) {
+    
 
     * {
         margin: 0;
@@ -24,6 +24,7 @@
         font-size: 0.9em;
         font-weight: bold;
         padding: 0.5em;
+        
 
     }
 
@@ -52,10 +53,11 @@
         position: relative;
         display: inline-flex;
         list-style-type: none;
-        left: 60dvw;
         color: beige;
+        
         flex-direction: row;
         position: relative;
+        left: 50%;
         top: -1.01em;
           font-size: 1.2em;
 
@@ -167,14 +169,10 @@
         background-color: #333;
         color: beige;
       }
-      
-    
-}
-   
+       
     h1{
         color: #811d1d;
     }
-
-    
     
 }
+  
