@@ -1,0 +1,180 @@
+@media screen and (min-width: 720px) and (max-width: 900px) {
+   
+    @media screen and (min-width: 2px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    
+
+   html, body {
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+        color: #333;
+        height: 219dvh;
+    }
+
+    header {
+
+        background-color: #4A00E0;
+        width: 100%dvw;
+        font-size: 0.9em;
+        font-weight: bold;
+        padding: 0.5em;
+
+    }
+
+    #hv{
+        position: relative;
+        top: 0.8dvh;
+    }
+
+    #hv h2:hover, a:hover{
+
+        color: #e99a50;
+        transition: 0.5s;
+        border-radius: 25px;
+    }
+
+    h2 {
+        position: relative;
+        top: 0.5em;
+        left: 0.5em;
+        color: beige;
+        font-size: 1.8em;
+
+    }
+
+    #headernav {
+        position: relative;
+        display: inline-flex;
+        list-style-type: none;
+        left: 60dvw;
+        color: beige;
+        flex-direction: row;
+        position: relative;
+        top: -1.01em;
+          font-size: 1.2em;
+
+    }
+
+   .headernavitems {
+        margin: 8px;
+        text-decoration: none;
+        color: beige;
+    }
+
+    main {
+
+        text-align: center;
+        background: linear-gradient(90deg, #4A00E0, #8E2DE2);
+        min-height: 200dvh; 
+        display: flex;
+        flex-direction: column;
+         justify-content: center; 
+         align-items: center;  
+         margin: 0;
+    }
+
+    #midtitle{
+        color: beige;
+        position: relative;
+        top: 0dvh;
+        font-size: 1.6em;
+        padding: 1em;
+    }
+    #midtitle p{
+        
+        font: normal normal 0.8em Arial, Sans-serif;
+        position: relative;
+        top: 16px;
+    }
+
+    #btn{
+        background-color: #ec7c14;
+        font: normal bold 1.2em Arial, sans-serif;
+        padding: 0.8rem 2rem;
+        border: solid transparent;
+        border-radius: 25px;
+        position: relative;
+        top: 5dvh;
+        text-decoration: none;
+        color: beige;
+    }
+
+    #btn:hover{
+        background-color: transparent;
+        padding: 0.9rem 2.1rem;
+        border: solid;
+        transition: 0.7s;
+        font: normal bold 1.3em Arial, sans-serif;
+        color: #ec7c14;
+
+    }
+
+    #portifolio{
+        background-color: #ffffff;
+        color: #333;
+        position: relative;
+        top: 30dvh;
+       width: 100%;
+       padding-top: 1em;
+       height: 90dvh;
+       padding-bottom: 5em;
+}
+       #sobrep{
+        position: relative;
+        top: 2em;
+        text-align: center;
+       }
+
+       #Nosso{
+        position: relative;
+        top: 4em;
+       }
+
+      #portifolionav{
+        display: grid;
+        gap:40px;
+        position: relative;
+        top: 20dvh;
+        width:100%;
+         padding-bottom: 5px;
+      }
+
+      .portifolioimgmain{
+        color: #333;
+        padding: 5px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      border-radius: 25px;
+      }
+
+      #cntt{
+        position: relative;
+        top: 30dvh;
+        display: grid;
+        gap: 20px;
+      }
+      #h1cntt{
+        font-size: 1.5em;
+      }
+      footer{
+        
+        padding: 15px;
+        background-color: #333;
+        color: beige;
+      }
+      
+    
+}
+   
+    h1{
+        color: #811d1d;
+    }
+
+    
+    
+}
