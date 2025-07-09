@@ -6,9 +6,10 @@
         overflow-x: hidden;
     }
 
-    
 
-   html, body {
+
+    html,
+    body {
         background-color: #fff;
         font-family: Arial, sans-serif;
         color: #333;
@@ -25,12 +26,13 @@
 
     }
 
-    #hv{
+    #hv {
         position: relative;
         top: 0.8dvh;
     }
 
-    #hv h2:hover, a:hover{
+    #hv h2:hover,
+    a:hover {
 
         color: #e99a50;
         transition: 0.5s;
@@ -55,11 +57,11 @@
         flex-direction: row;
         position: relative;
         top: -1.01em;
-          font-size: 1.2em;
+        font-size: 1.2em;
 
     }
 
-   .headernavitems {
+    .headernavitems {
         margin: 8px;
         text-decoration: none;
         color: beige;
@@ -69,29 +71,30 @@
 
         text-align: center;
         background: linear-gradient(90deg, #4A00E0, #8E2DE2);
-        min-height: 180dvh; 
+        min-height: 180dvh;
         display: flex;
         flex-direction: column;
-         justify-content: center; 
-         align-items: center;  
-         margin: 0;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
 
-    #midtitle{
+    #midtitle {
         color: beige;
         position: relative;
         top: 0dvh;
         font-size: 1.6em;
         padding: 1em;
     }
-    #midtitle p{
-        
+
+    #midtitle p {
+
         font: normal normal 0.8em Arial, Sans-serif;
         position: relative;
         top: 16px;
     }
 
-    #btn{
+    #btn {
         background-color: #ec7c14;
         font: normal bold 1.2em Arial, sans-serif;
         padding: 0.8rem 2rem;
@@ -103,7 +106,7 @@
         color: beige;
     }
 
-    #btn:hover{
+    #btn:hover {
         background-color: transparent;
         padding: 0.9rem 2.1rem;
         border: solid;
@@ -113,57 +116,60 @@
 
     }
 
-    #portifolio{
+    #portifolio {
         background-color: #ffffff;
         color: #333;
         position: relative;
         top: 30dvh;
-       width: 100%;
-       padding-top: 1em;
-       height: 90dvh;
-}
-       #sobrep{
+        width: 100%;
+        padding-top: 1em;
+        height: 90dvh;
+    }
+
+    #sobrep {
         position: relative;
         top: 2em;
         text-align: center;
-       }
+    }
 
-       #Nosso{
+    #Nosso {
         position: relative;
         top: 4em;
-       }
+    }
 
-      #portifolionav{
+    #portifolionav {
         display: grid;
-        gap:40px;
+        gap: 40px;
         position: relative;
         top: 20dvh;
-        width:100%;
-         padding-bottom: 5px;
-      }
+        width: 100%;
+        padding-bottom: 5px;
+    }
 
-      .portifolioimgmain{
+    .portifolioimgmain {
         color: #333;
         padding: 5px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-      border-radius: 25px;
-      }
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 25px;
+    }
 
-      #cntt{
+    #cntt {
         position: relative;
         top: 27dvh;
         display: grid;
         gap: 20px;
-      }
-      #h1cntt{
+    }
+
+    #h1cntt {
         font-size: 1.5em;
-      }
-      footer{
-        
+    }
+
+    footer {
+
         padding: 15px;
         background-color: #333;
         color: beige;
-      }
-      
-    
+    }
+
+
 }
